@@ -15,6 +15,10 @@ The MoviesDB SwiftUI App is a demonstration application showcasing the use of se
 - [Combine Networking](https://github.com/silkodenis/swift-combine-networking): Handles all network requests to the MoviesDB API.
 - [Navigation Coordinator](https://github.com/silkodenis/swiftui-navigation-coordinator): Manages navigation within the app, coordinating between different views.
 
+## Acknowledgments
+
+Special thanks to [Oleksii Demedetskyi](https://github.com/oleksii-demedetskyi) for providing inspiration and some concepts such as normalized state, Graph, and view connector, which were adapted in this project. These concepts were originally presented in [SwiftUI-UDF-Demo](https://github.com/oleksii-demedetskyi/SwiftUI-UDF-Demo).
+
 ## License
 
 This project is licensed under the [Apache License, Version 2.0](LICENSE).
