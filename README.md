@@ -1,5 +1,12 @@
 # MoviesDB SwiftUI-Redux App
 
+<p align="center">
+  <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/1.png?raw=true" alt="Screenshot 1" width="200"/>
+  <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/2.png?raw=true" alt="Screenshot 2" width="200"/>
+  <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/3.png?raw=true" alt="Screenshot 3" width="200"/>
+  <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/4.png?raw=true" alt="Screenshot 4" width="200"/>
+</p>
+
 The MoviesDB SwiftUI App is a demonstration application showcasing the use of several of my Swift packages: `Combine Networking`, `Combine Redux Store`, and `Navigation Coordinator` Pattern. The app leverages a unidirectional data flow approach with a centralized app state and state-driven side effects, providing a reactive and declarative way to build iOS applications.
 
 ## Key Components
