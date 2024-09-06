@@ -7,7 +7,7 @@
   <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/4.png?raw=true" alt="Screenshot 4" width="200"/>
 </p>
 
-This is a demo app showcasing some of my Swift packages: **Combine Networking**, **Combine Redux Store**, and **Navigation Coordinator Pattern**. The app leverages a unidirectional data flow approach with state-driven side effects, providing a reactive and declarative way to build iOS applications.
+This is a demo app showcasing some of my Swift packages: **Combine Networking**, **Combine Redux Store**, and **Navigation Coordinator Pattern**. The app leverages a unidirectional data flow approach with data-driven side effects, providing a reactive and declarative way to build iOS applications.
 
 ## Key Components
 
