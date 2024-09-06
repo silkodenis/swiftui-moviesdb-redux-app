@@ -1,4 +1,4 @@
-# MoviesDB SwiftUI-Redux App
+# SwiftUI Redux TMDB App
 
 <p align="center">
   <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/1.png?raw=true" alt="Screenshot 1" width="200"/>
