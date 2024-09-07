@@ -1,11 +1,13 @@
 import Core
 import Combine
-import ReduxStore
+import CombineReduxStore
+import NavigationCoordinator
 
 typealias Graph = Core.Graph
 typealias AppState = Core.AppState
 typealias AppAction = Core.AppAction
 typealias NoEffect = Empty<AppAction, Never>
+typealias AppStore = CombineReduxStore.Store<AppState, AppAction>
+typealias Feedback = CombineReduxStore.Feedback<AppState, AppAction>
 typealias Coordinator = NavigationCoordinator<Screen>
-typealias AppStore = ReduxStore.Store<AppState, AppAction>
-typealias Feedback = ReduxStore.Feedback<AppState, AppAction>
+typealias RootView = NavigationStackRootView<Screen>

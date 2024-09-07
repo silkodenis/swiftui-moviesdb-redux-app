@@ -16,7 +16,8 @@ struct MainApp: App {
     init() {
         let initialStore = AppStore(initial: AppState(), 
                                     feedbacks: 💉.feedbacks) { state, action in
-            print("🧬 Reduce -->", action)
+            print("🧬 Reduce -->", String(describing: type(of: action)))
+            //print("🧬 Reduce -->", action)
             state.reduce(action)
         }
         

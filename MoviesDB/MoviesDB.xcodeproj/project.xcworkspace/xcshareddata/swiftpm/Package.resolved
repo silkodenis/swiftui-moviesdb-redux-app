@@ -1,0 +1,33 @@
+{
+  "originHash" : "d4e45bdcb2e143fbcb3f1c647b311dc0ba91972cf1bf90940672cb7ef50fa6c6",
+  "pins" : [
+    {
+      "identity" : "combine-redux-store",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/silkodenis/combine-redux-store.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ac456679227035c02eaac2b42cfbde5f33793895"
+      }
+    },
+    {
+      "identity" : "swift-combine-networking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/silkodenis/swift-combine-networking.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ea2cd94a27ee1a061b2acbc9d83f5d9c2a830503"
+      }
+    },
+    {
+      "identity" : "swiftui-navigation-coordinator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/silkodenis/swiftui-navigation-coordinator.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0094ed80fdac0386b2b8fa0093288fcd119f1beb"
+      }
+    }
+  ],
+  "version" : 3
+}

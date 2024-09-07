@@ -1,5 +1,6 @@
 import SwiftUI
 import Core
+import NavigationCoordinator
 
 enum Screen {
     case login
@@ -7,7 +8,7 @@ enum Screen {
     case movieDetail(id: Movie.Id)
 }
 
-extension Screen: Navigable {
+extension Screen: NavigableScreen {
     @ViewBuilder
     var view: some View {
         switch self {

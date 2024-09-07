@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271C2C032C8CFCB500D746A4 /* NavigationCoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C022C8CFCB500D746A4 /* NavigationCoordinator */; };
+		271C2C062C8CFCCE00D746A4 /* CombineReduxStore in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C052C8CFCCE00D746A4 /* CombineReduxStore */; };
+		271C2C092C8CFCE200D746A4 /* CombineNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C082C8CFCE200D746A4 /* CombineNetworking */; };
 		271E23B72C8B1C1900A1924C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271E23B62C8B1C1900A1924C /* Assets.xcassets */; };
 		271E23BA2C8B1C1900A1924C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271E23B92C8B1C1900A1924C /* Preview Assets.xcassets */; };
-		271E23C62C8B1CA300A1924C /* ReduxStore in Frameworks */ = {isa = PBXBuildFile; productRef = 271E23C52C8B1CA300A1924C /* ReduxStore */; };
 		271E23CD2C8B1DA000A1924C /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 271E23CC2C8B1DA000A1924C /* Core */; };
-		271E23D02C8B1DA800A1924C /* ReduxStore in Frameworks */ = {isa = PBXBuildFile; productRef = 271E23CF2C8B1DA800A1924C /* ReduxStore */; };
-		271E23D32C8B1DB200A1924C /* CombineNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 271E23D22C8B1DB200A1924C /* CombineNetworking */; };
 		271E24152C8B1E0900A1924C /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23D42C8B1E0800A1924C /* MainApp.swift */; };
 		271E24162C8B1E0900A1924C /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23D52C8B1E0800A1924C /* Types.swift */; };
-		271E24172C8B1E0900A1924C /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23D62C8B1E0800A1924C /* NavigationCoordinator.swift */; };
-		271E24182C8B1E0900A1924C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23D72C8B1E0800A1924C /* RootView.swift */; };
 		271E24192C8B1E0900A1924C /* EnvironmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23D92C8B1E0800A1924C /* EnvironmentStore.swift */; };
 		271E241A2C8B1E0900A1924C /* StoreProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23DA2C8B1E0800A1924C /* StoreProvider.swift */; };
 		271E241B2C8B1E0900A1924C /* ViewConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E23DB2C8B1E0800A1924C /* ViewConnector.swift */; };
@@ -62,13 +60,9 @@
 		271E23AF2C8B1C1800A1924C /* MoviesDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		271E23B62C8B1C1900A1924C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271E23B92C8B1C1900A1924C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		271E23C82C8B1D5200A1924C /* Store */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Store; sourceTree = "<group>"; };
 		271E23C92C8B1D8300A1924C /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
-		271E23CA2C8B1D8700A1924C /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		271E23D42C8B1E0800A1924C /* MainApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		271E23D52C8B1E0800A1924C /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
-		271E23D62C8B1E0800A1924C /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
-		271E23D72C8B1E0800A1924C /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		271E23D92C8B1E0800A1924C /* EnvironmentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentStore.swift; sourceTree = "<group>"; };
 		271E23DA2C8B1E0800A1924C /* StoreProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreProvider.swift; sourceTree = "<group>"; };
 		271E23DB2C8B1E0800A1924C /* ViewConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConnector.swift; sourceTree = "<group>"; };
@@ -115,10 +109,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				271E23C62C8B1CA300A1924C /* ReduxStore in Frameworks */,
+				271C2C092C8CFCE200D746A4 /* CombineNetworking in Frameworks */,
+				271C2C032C8CFCB500D746A4 /* NavigationCoordinator in Frameworks */,
+				271C2C062C8CFCCE00D746A4 /* CombineReduxStore in Frameworks */,
 				271E23CD2C8B1DA000A1924C /* Core in Frameworks */,
-				271E23D32C8B1DB200A1924C /* CombineNetworking in Frameworks */,
-				271E23D02C8B1DA800A1924C /* ReduxStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				271E23C92C8B1D8300A1924C /* Core */,
-				271E23C82C8B1D5200A1924C /* Store */,
-				271E23CA2C8B1D8700A1924C /* Networking */,
 				271E23B12C8B1C1800A1924C /* MoviesDB */,
 				271E23B02C8B1C1800A1924C /* Products */,
 			);
@@ -166,19 +158,9 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		271E23D82C8B1E0800A1924C /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				271E23D62C8B1E0800A1924C /* NavigationCoordinator.swift */,
-				271E23D72C8B1E0800A1924C /* RootView.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
 		271E23DC2C8B1E0800A1924C /* System */ = {
 			isa = PBXGroup;
 			children = (
-				271E23D82C8B1E0800A1924C /* Navigation */,
 				271E23D92C8B1E0800A1924C /* EnvironmentStore.swift */,
 				271E23DA2C8B1E0800A1924C /* StoreProvider.swift */,
 				271E23DB2C8B1E0800A1924C /* ViewConnector.swift */,
@@ -397,10 +379,10 @@
 			);
 			name = MoviesDB;
 			packageProductDependencies = (
-				271E23C52C8B1CA300A1924C /* ReduxStore */,
 				271E23CC2C8B1DA000A1924C /* Core */,
-				271E23CF2C8B1DA800A1924C /* ReduxStore */,
-				271E23D22C8B1DB200A1924C /* CombineNetworking */,
+				271C2C022C8CFCB500D746A4 /* NavigationCoordinator */,
+				271C2C052C8CFCCE00D746A4 /* CombineReduxStore */,
+				271C2C082C8CFCE200D746A4 /* CombineNetworking */,
 			);
 			productName = MoviesDB;
 			productReference = 271E23AF2C8B1C1800A1924C /* MoviesDB.app */;
@@ -433,8 +415,9 @@
 			mainGroup = 271E23A62C8B1C1800A1924C;
 			packageReferences = (
 				271E23CB2C8B1DA000A1924C /* XCLocalSwiftPackageReference "Core" */,
-				271E23CE2C8B1DA800A1924C /* XCLocalSwiftPackageReference "Store" */,
-				271E23D12C8B1DB200A1924C /* XCLocalSwiftPackageReference "Networking" */,
+				271C2C012C8CFCB500D746A4 /* XCRemoteSwiftPackageReference "swiftui-navigation-coordinator" */,
+				271C2C042C8CFCCE00D746A4 /* XCRemoteSwiftPackageReference "combine-redux-store" */,
+				271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */,
 			);
 			productRefGroup = 271E23B02C8B1C1800A1924C /* Products */;
 			projectDirPath = "";
@@ -484,12 +467,10 @@
 				271E24372C8B1E0900A1924C /* SearchbarViewConnector.swift in Sources */,
 				271E241F2C8B1E0900A1924C /* Keyboard.swift in Sources */,
 				271E24322C8B1E0900A1924C /* MovieDetailFlowView.swift in Sources */,
-				271E24182C8B1E0900A1924C /* RootView.swift in Sources */,
 				271E24152C8B1E0900A1924C /* MainApp.swift in Sources */,
 				271E243F2C8B1E0900A1924C /* AppConfigurator.swift in Sources */,
 				271E24262C8B1E0900A1924C /* GenresView.swift in Sources */,
 				271E24202C8B1E0900A1924C /* DebugPrintModifier.swift in Sources */,
-				271E24172C8B1E0900A1924C /* NavigationCoordinator.swift in Sources */,
 				271E241B2C8B1E0900A1924C /* ViewConnector.swift in Sources */,
 				271E24162C8B1E0900A1924C /* Types.swift in Sources */,
 				271E243A2C8B1E0900A1924C /* Screen.swift in Sources */,
@@ -721,32 +702,54 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Core;
 		};
-		271E23CE2C8B1DA800A1924C /* XCLocalSwiftPackageReference "Store" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = Store;
-		};
-		271E23D12C8B1DB200A1924C /* XCLocalSwiftPackageReference "Networking" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = Networking;
-		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		271C2C012C8CFCB500D746A4 /* XCRemoteSwiftPackageReference "swiftui-navigation-coordinator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/silkodenis/swiftui-navigation-coordinator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		271C2C042C8CFCCE00D746A4 /* XCRemoteSwiftPackageReference "combine-redux-store" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/silkodenis/combine-redux-store.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/silkodenis/swift-combine-networking.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		271E23C52C8B1CA300A1924C /* ReduxStore */ = {
+		271C2C022C8CFCB500D746A4 /* NavigationCoordinator */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = ReduxStore;
+			package = 271C2C012C8CFCB500D746A4 /* XCRemoteSwiftPackageReference "swiftui-navigation-coordinator" */;
+			productName = NavigationCoordinator;
+		};
+		271C2C052C8CFCCE00D746A4 /* CombineReduxStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 271C2C042C8CFCCE00D746A4 /* XCRemoteSwiftPackageReference "combine-redux-store" */;
+			productName = CombineReduxStore;
+		};
+		271C2C082C8CFCE200D746A4 /* CombineNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */;
+			productName = CombineNetworking;
 		};
 		271E23CC2C8B1DA000A1924C /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
-		};
-		271E23CF2C8B1DA800A1924C /* ReduxStore */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ReduxStore;
-		};
-		271E23D22C8B1DB200A1924C /* CombineNetworking */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CombineNetworking;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
