@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		271C2C032C8CFCB500D746A4 /* NavigationCoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C022C8CFCB500D746A4 /* NavigationCoordinator */; };
-		271C2C062C8CFCCE00D746A4 /* CombineReduxStore in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C052C8CFCCE00D746A4 /* CombineReduxStore */; };
 		271C2C092C8CFCE200D746A4 /* CombineNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C082C8CFCE200D746A4 /* CombineNetworking */; };
+		271C2C0C2C8D9A9100D746A4 /* CombineStore in Frameworks */ = {isa = PBXBuildFile; productRef = 271C2C0B2C8D9A9100D746A4 /* CombineStore */; };
 		271E23B72C8B1C1900A1924C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271E23B62C8B1C1900A1924C /* Assets.xcassets */; };
 		271E23BA2C8B1C1900A1924C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271E23B92C8B1C1900A1924C /* Preview Assets.xcassets */; };
 		271E23CD2C8B1DA000A1924C /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 271E23CC2C8B1DA000A1924C /* Core */; };
@@ -111,7 +111,7 @@
 			files = (
 				271C2C092C8CFCE200D746A4 /* CombineNetworking in Frameworks */,
 				271C2C032C8CFCB500D746A4 /* NavigationCoordinator in Frameworks */,
-				271C2C062C8CFCCE00D746A4 /* CombineReduxStore in Frameworks */,
+				271C2C0C2C8D9A9100D746A4 /* CombineStore in Frameworks */,
 				271E23CD2C8B1DA000A1924C /* Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,8 +381,8 @@
 			packageProductDependencies = (
 				271E23CC2C8B1DA000A1924C /* Core */,
 				271C2C022C8CFCB500D746A4 /* NavigationCoordinator */,
-				271C2C052C8CFCCE00D746A4 /* CombineReduxStore */,
 				271C2C082C8CFCE200D746A4 /* CombineNetworking */,
+				271C2C0B2C8D9A9100D746A4 /* CombineStore */,
 			);
 			productName = MoviesDB;
 			productReference = 271E23AF2C8B1C1800A1924C /* MoviesDB.app */;
@@ -416,8 +416,8 @@
 			packageReferences = (
 				271E23CB2C8B1DA000A1924C /* XCLocalSwiftPackageReference "Core" */,
 				271C2C012C8CFCB500D746A4 /* XCRemoteSwiftPackageReference "swiftui-navigation-coordinator" */,
-				271C2C042C8CFCCE00D746A4 /* XCRemoteSwiftPackageReference "combine-redux-store" */,
 				271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */,
+				271C2C0A2C8D9A9100D746A4 /* XCRemoteSwiftPackageReference "combine-store" */,
 			);
 			productRefGroup = 271E23B02C8B1C1800A1924C /* Products */;
 			projectDirPath = "";
@@ -713,17 +713,17 @@
 				kind = branch;
 			};
 		};
-		271C2C042C8CFCCE00D746A4 /* XCRemoteSwiftPackageReference "combine-redux-store" */ = {
+		271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/silkodenis/combine-redux-store.git";
+			repositoryURL = "https://github.com/silkodenis/swift-combine-networking.git";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
-		271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */ = {
+		271C2C0A2C8D9A9100D746A4 /* XCRemoteSwiftPackageReference "combine-store" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/silkodenis/swift-combine-networking.git";
+			repositoryURL = "https://github.com/silkodenis/combine-store.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -737,15 +737,15 @@
 			package = 271C2C012C8CFCB500D746A4 /* XCRemoteSwiftPackageReference "swiftui-navigation-coordinator" */;
 			productName = NavigationCoordinator;
 		};
-		271C2C052C8CFCCE00D746A4 /* CombineReduxStore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 271C2C042C8CFCCE00D746A4 /* XCRemoteSwiftPackageReference "combine-redux-store" */;
-			productName = CombineReduxStore;
-		};
 		271C2C082C8CFCE200D746A4 /* CombineNetworking */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 271C2C072C8CFCE200D746A4 /* XCRemoteSwiftPackageReference "swift-combine-networking" */;
 			productName = CombineNetworking;
+		};
+		271C2C0B2C8D9A9100D746A4 /* CombineStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 271C2C0A2C8D9A9100D746A4 /* XCRemoteSwiftPackageReference "combine-store" */;
+			productName = CombineStore;
 		};
 		271E23CC2C8B1DA000A1924C /* Core */ = {
 			isa = XCSwiftPackageProductDependency;

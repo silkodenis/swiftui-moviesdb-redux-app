@@ -1,13 +1,13 @@
 {
-  "originHash" : "d4e45bdcb2e143fbcb3f1c647b311dc0ba91972cf1bf90940672cb7ef50fa6c6",
+  "originHash" : "cf8a70a4e97c41a104ca3af04936c84e6d1d4165b6fe49a0292662ed399c7d11",
   "pins" : [
     {
-      "identity" : "combine-redux-store",
+      "identity" : "combine-store",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/silkodenis/combine-redux-store.git",
+      "location" : "https://github.com/silkodenis/combine-store.git",
       "state" : {
         "branch" : "main",
-        "revision" : "ac456679227035c02eaac2b42cfbde5f33793895"
+        "revision" : "3556497a19fcc8a6122152ee1e09946d663d7b88"
       }
     },
     {
