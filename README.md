@@ -1,4 +1,4 @@
-# SwiftUI Redux TMDB App
+# SwiftUI TMDB App
 
 <p align="center">
   <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/1.png?raw=true" alt="Screenshot 1" width="200"/>
@@ -7,11 +7,11 @@
   <img src="https://github.com/silkodenis/swiftui-moviesdb-redux-app/blob/readme_assets/screenshots/4.png?raw=true" alt="Screenshot 4" width="200"/>
 </p>
 
-This is a demo app showcasing some of my Swift packages: **Combine Networking**, **Combine Redux Store**, and **Navigation Coordinator Pattern**. The app leverages a unidirectional data flow approach with data-driven side effects, providing a reactive and declarative way to build iOS applications.
+This is a demo app showcasing some of my Swift packages: **Combine Networking**, **Combine Store**, and **Navigation Coordinator Pattern**. The app leverages a unidirectional data flow approach with data-driven side effects, providing a reactive and declarative way to build iOS applications.
 
 ## Key Components
 
-- [Combine Redux Store](https://github.com/silkodenis/combine-redux-store): Manages application state and actions, ensuring predictable state transitions.
+- [Combine Store](https://github.com/silkodenis/swift-combine-store): Manages application state and actions, ensuring predictable state transitions.
 - [Combine Networking](https://github.com/silkodenis/swift-combine-networking): Handles all network requests to the MoviesDB API.
 - [Navigation Coordinator](https://github.com/silkodenis/swiftui-navigation-coordinator): Manages navigation within the app, coordinating between different views.
 
