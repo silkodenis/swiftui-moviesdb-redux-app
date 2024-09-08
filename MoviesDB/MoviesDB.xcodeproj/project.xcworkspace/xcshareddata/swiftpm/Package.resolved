@@ -1,15 +1,6 @@
 {
-  "originHash" : "cf8a70a4e97c41a104ca3af04936c84e6d1d4165b6fe49a0292662ed399c7d11",
+  "originHash" : "dc40710d9dce5d5acdd2b07e624da70e3f133ad2ebefd4a8214843594bd7d36f",
   "pins" : [
-    {
-      "identity" : "combine-store",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/silkodenis/combine-store.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "3556497a19fcc8a6122152ee1e09946d663d7b88"
-      }
-    },
     {
       "identity" : "swift-combine-networking",
       "kind" : "remoteSourceControl",
@@ -17,6 +8,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "ea2cd94a27ee1a061b2acbc9d83f5d9c2a830503"
+      }
+    },
+    {
+      "identity" : "swift-combine-store",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/silkodenis/swift-combine-store.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3556497a19fcc8a6122152ee1e09946d663d7b88"
       }
     },
     {
