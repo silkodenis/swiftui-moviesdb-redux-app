@@ -17,7 +17,7 @@ This is a demo app showcasing some of my Swift packages: **Combine Networking**,
 
 ## Acknowledgments
 
-Special thanks to [Oleksii Demedetskyi](https://github.com/oleksii-demedetskyi) for providing inspiration and some concepts such as normalized state, Graph, and view connector, which were adapted in this project. These concepts were originally presented in [SwiftUI-UDF-Demo](https://github.com/oleksii-demedetskyi/SwiftUI-UDF-Demo).
+Special thanks to [Oleksii Demedetskyi](https://github.com/oleksii-demedetskyi) for providing inspiration and some concepts such as graph system over normalized state and view connector, which were adapted in this project. These concepts were originally presented in [SwiftUI-UDF-Demo](https://github.com/oleksii-demedetskyi/SwiftUI-UDF-Demo).
 
 ## License
 
