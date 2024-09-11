@@ -49,6 +49,14 @@ struct MovieRowView: View {
     }
 }
 
+extension MovieRowView: Equatable {
+    static func == (lhs: MovieRowView, rhs: MovieRowView) -> Bool {
+        lhs.title == rhs.title &&
+        lhs.description == rhs.description &&
+        lhs.image == rhs.image
+    }
+}
+
 // MARK: - Preview
 
 struct MovieRowView_Previews: PreviewProvider {

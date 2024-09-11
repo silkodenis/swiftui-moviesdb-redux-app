@@ -17,7 +17,9 @@ public struct MovieList {
         case let action as ReceiveMoviePage:
             currentPage = action.page.page
             totalPages = action.page.totalPages
-            ids += action.page.movies.map(\.id)
+            let newIds = action.page.movies.map(\.id).filter { 
+                !ids.contains($0) }
+            ids.append(contentsOf: newIds)
             canLoad = false
             
         case is RequestNextMoviePage:

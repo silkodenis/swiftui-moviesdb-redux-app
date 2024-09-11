@@ -67,6 +67,13 @@ struct MovieListView<S: View, R: View>: View {
     }
 }
 
+extension MovieListView: Equatable where S: Equatable, R: Equatable {
+    static func == (lhs: MovieListView<S, R>, rhs: MovieListView<S, R>) -> Bool {
+        lhs.ids == rhs.ids &&
+        lhs.title == rhs.title
+    }
+}
+
 #Preview {
     NavigationView {
         MovieListView(searchbar: {SearchbarView_Previews.previews},
