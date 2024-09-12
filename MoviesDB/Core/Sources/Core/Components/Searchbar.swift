@@ -27,7 +27,10 @@ public struct Searchbar {
         case is ClearSearchQuery: self = Self()
             
         case let action as ReceiveSearchPage:
-            ids += action.page.movies.map(\.id)
+            let newIds = action.page.movies.map(\.id).filter {
+                !ids.contains($0)
+            }
+            ids.append(contentsOf: newIds)
             currentPage = action.page.page
             totalPages = action.page.totalPages
             canLoad = false
